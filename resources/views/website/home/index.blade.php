@@ -95,7 +95,7 @@
                             @foreach($blogs as $blog)
                             <div class="single-product">
                                 <div class="product-f-image">
-                                    <img src="{{asset($blog->image)}}website/img/product-6.jpg" alt="">
+                                    <img src="{{asset($blog->image)}}" alt="">
                                     <div class="product-hover">
                                         <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
                                         <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
